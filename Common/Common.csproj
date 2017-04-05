@@ -55,12 +55,6 @@
     <Compile Include="Class\UtilitiesCOMMON.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Muebleria18\Muebleria18.csproj">
-      <Project>{A74DAB06-5BE3-4D53-B10D-91356BA9B4BB}</Project>
-      <Name>Muebleria18</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

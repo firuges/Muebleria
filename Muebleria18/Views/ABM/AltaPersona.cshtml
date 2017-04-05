@@ -1,7 +1,97 @@
 ﻿
+@model Muebleria18.Models.AbmPersonasModels
 @{
-    ViewBag.Title = "AltaPersona";
+    ViewBag.Title = "AltaUsuarios";
 }
 
 <h2>AltaPersona</h2>
 
+<!--                    Accion Controller-->
+@using (Html.BeginForm("AltaPersona", "ABMController", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+    <article>
+        <table align="center">
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.LastName)
+                    @Html.TextBoxFor(m => m.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Born)
+                    @Html.TextBoxFor(m => m.Born)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Email)
+                    @Html.TextBoxFor(m => m.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Password)
+                    @Html.TextBoxFor(m => m.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Password2)
+                    @Html.TextBoxFor(m => m.Password2)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Phone)
+                    @Html.TextBoxFor(m => m.Phone)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Ci)
+                    @Html.TextBoxFor(m => m.Ci)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.City)
+                    @Html.TextBoxFor(m => m.City)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Address)
+                    @Html.TextBoxFor(m => m.Address)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Category)
+                    @Html.EnumDropDownListFor(m => m.Category)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Type)
+                    @Html.EnumDropDownListFor(m => m.Type)
+                </td>
+            </tr>
+            <tr>
+                <td><input id="mensaje" type="text" value="@Model.mensaje.ToString()" readonly="readonly" /></td>
+                @*<td>@Html.ActionLink("Lista de Clientes", "ListarPersonas", "ABMPersonas")</td>*@
+            </tr>
+            <tr>
+                <td><input id="btnRegistrar" type="submit" value="Ingresar" /></td>
+                <td></td>
+            </tr>
+        </table>
+    </article>
+}

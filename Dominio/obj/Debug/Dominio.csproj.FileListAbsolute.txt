@@ -1,0 +1,9 @@
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Dominio.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Common.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Persistencia.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Common.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\bin\Debug\Persistencia.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\obj\Debug\Dominio.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Dominio\obj\Debug\Dominio.pdb

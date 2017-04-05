@@ -99,3 +99,9 @@ c:\users\maxi\documents\visual studio 2015\Projects\Muebleria18\Muebleria18\bin\
 c:\users\maxi\documents\visual studio 2015\Projects\Muebleria18\Muebleria18\obj\Debug\Muebleria18.csprojResolveAssemblyReference.cache
 c:\users\maxi\documents\visual studio 2015\Projects\Muebleria18\Muebleria18\obj\Debug\Muebleria18.dll
 c:\users\maxi\documents\visual studio 2015\Projects\Muebleria18\Muebleria18\obj\Debug\Muebleria18.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Common.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Dominio.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Persistencia.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Common.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Dominio.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Muebleria18\bin\Persistencia.pdb

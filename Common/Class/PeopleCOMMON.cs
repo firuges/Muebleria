@@ -1,4 +1,4 @@
-﻿using Muebleria18.COMMON;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +14,11 @@ namespace Common.Class
         public string LastName { get; set; }
         public DateTime Born { get; set; }
         public string Email { get; set; }
-        public int Phone { get; set; }
-        public int Ci { get; set; }
-        public string Adress { get; set; }
-        public cUtilidades.CategoryPeople CategoryPeople { get; set; }
+        
+        public string Phone { get; set; }
+        public string Ci { get; set; }
+        public string address { get; set; }
+        public CityCOMMON City { get; set; }
+        public string CategoryPeople { get; set; }
     }
 }

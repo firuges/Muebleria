@@ -1,0 +1,5 @@
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Common\bin\Debug\Common.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Common\bin\Debug\Common.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Common\obj\Debug\Common.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Common\obj\Debug\Common.pdb

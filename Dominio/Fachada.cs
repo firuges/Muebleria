@@ -9,9 +9,9 @@ namespace Dominio
 {
     public class Fachada
     {
-        public static bool Categoria_Agregar(TypeProductCOMMON pCategoria)
+        public static bool TypeProduct_ADD(TypeProductCOMMON pType)
         {
-            return Dominio.Clases.CategoriaDOM.Agregar(pCategoria);
+            return TypeProductDOM.Add(pType);
         }
     }
 }

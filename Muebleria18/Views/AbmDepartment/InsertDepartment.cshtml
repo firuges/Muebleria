@@ -1,0 +1,36 @@
+﻿@model Muebleria18.Models.AbmDepartmentModels
+@{
+    ViewBag.Title = "AbmDepartment";
+}
+
+<h2>AbmDepartment</h2>
+
+<!--                    Accion                  Controller-->
+@using (Html.BeginForm("InsertDepartment", "AbmDepartmentController", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+    <article>
+        <table align="center">
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.listDepartment)
+                    @Html.DropDownListFor(m => m.listDepartment, new SelectList(Model.listDepartment, "Id", "Name"))
+                </td>
+            </tr>
+            <tr>
+                <td><input id="mensaje" type="text" value="@Model.mensaje.ToString()" readonly="readonly" /></td>
+                @*<td>@Html.ActionLink("Lista de Clientes", "ListarPersonas", "ABMPersonas")</td>*@
+            </tr>
+            <tr>
+                <td><input id="btnRegistrar" type="submit" value="Ingresar" /></td>
+                <td></td>
+            </tr>
+        </table>
+    </article>
+}

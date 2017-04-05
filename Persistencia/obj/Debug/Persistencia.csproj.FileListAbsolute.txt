@@ -1,0 +1,7 @@
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\bin\Debug\Common.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\bin\Debug\Common.pdb
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Maxi\Documents\Visual Studio 2015\Projects\Muebleria18\Persistencia\obj\Debug\Persistencia.pdb

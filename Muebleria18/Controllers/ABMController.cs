@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Muebleria18.Models;
+using Common.Class;
 
 namespace Muebleria18.Controllers
 {
@@ -14,11 +15,11 @@ namespace Muebleria18.Controllers
         {
 
             Muebleria18.Models.AbmPersonasModels pModel = new Models.AbmPersonasModels();
-            pModel.mensaje = "";
-            List<Persona> ListadePersonas = new List<Persona>();
-            ListadePersonas = (List<Persona>)Session["LaLista"];
+            pModel.mensaje = "Bienvenido a mi ABM";
+            List<PeopleCOMMON> ListadePersonas = new List<PeopleCOMMON>();
+            ListadePersonas = (List<PeopleCOMMON>)Session["LaLista"];
             pModel.LaListadePersonas = ListadePersonas;
-
+            
             return View(pModel);
         }
     }

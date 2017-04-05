@@ -11,6 +11,6 @@ namespace Common.Class
         public string Password { get; set; }
         public DateTime DateJoin { get; set; }
         public DateTime LastLogin { get; set; }
-        public UtilitiesCOMMON.TypeClient ClientTypeStatus { get; set; }
+        public String ClientTypeStatus { get; set; }
     }
 }
