@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\DepartmentDOM.cs" />
     <Compile Include="Class\TypeProductDOM.cs" />
     <Compile Include="Fachada.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

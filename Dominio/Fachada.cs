@@ -9,9 +9,13 @@ namespace Dominio
 {
     public class Fachada
     {
-        public static bool TypeProduct_ADD(TypeProductCOMMON pType)
+        public static bool TypeProduct_Add(TypeProductCOMMON pType)
         {
             return TypeProductDOM.Add(pType);
+        }
+        public static bool Department_Add(DepartmentCOMMON pDpart)
+        {
+            return DepartmentDOM.Add(pDpart);
         }
     }
 }

@@ -215,7 +215,7 @@ namespace Persistencia.Class
         }
 
 
-        public static bool Modificar(ClientCOMMON pClient)
+        public static bool Update(ClientCOMMON pClient)
         {
             bool retorno = true;
 

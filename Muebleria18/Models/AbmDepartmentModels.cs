@@ -22,12 +22,11 @@ namespace Muebleria18.Models
         [Required]
         [DataType(DataType.Currency)]
         [Display(Name = "Departamentos")]
-        public List<DepartmentCOMMON> listDepartment { get; set; }
+        public List<DepartmentCOMMON> lstDepartmentModel { get; set; }
 
         [DataType(DataType.Currency)]
 
         public string mensaje { get; set; }
-
-        public List<DepartmentCOMMON> ListDepartment { get; set; }
+        
     }
 }
