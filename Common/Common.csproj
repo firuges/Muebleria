@@ -44,6 +44,7 @@
     <Compile Include="Class\ClientCOMMON.cs" />
     <Compile Include="Class\DepartmentCOMMON.cs" />
     <Compile Include="Class\EmployeeCOMMON.cs" />
+    <Compile Include="Class\Extra\AddressCOMMON.cs" />
     <Compile Include="Class\FacturaCOMMON.cs" />
     <Compile Include="Class\IvaCOMMON.cs" />
     <Compile Include="Class\LineCOMMON.cs" />

@@ -1,4 +1,5 @@
 ﻿
+using Common.Class.Extra;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Common.Class
         
         public string Phone { get; set; }
         public string Ci { get; set; }
-        public string address { get; set; }
+        public AddressCOMMON address { get; set; }
         public CityCOMMON City { get; set; }
         public string CategoryPeople { get; set; }
     }
