@@ -14,5 +14,17 @@ namespace Dominio.Class
         {
             return DepartmentPERS.Add(pDpart);
         }
+        public static bool Delete(DepartmentCOMMON pDpart)
+        {
+            return DepartmentPERS.Delete(pDpart);
+        }
+        public static bool Update(DepartmentCOMMON pDpart)
+        {
+            return DepartmentPERS.Update(pDpart);
+        }
+        public static List<DepartmentCOMMON> SearchAll()
+        {
+            return DepartmentPERS.SearchAll();
+        }
     }
 }

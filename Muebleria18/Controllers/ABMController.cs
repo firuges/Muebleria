@@ -14,7 +14,7 @@ namespace Muebleria18.Controllers
         public ActionResult AltaPersona()
         {
 
-            Muebleria18.Models.AbmPersonasModels pModel = new Models.AbmPersonasModels();
+            Muebleria18.Models.PersonaModels pModel = new Models.PersonaModels();
             pModel.mensaje = "Bienvenido a mi ABM";
             List<PeopleCOMMON> ListadePersonas = new List<PeopleCOMMON>();
             ListadePersonas = (List<PeopleCOMMON>)Session["LaLista"];

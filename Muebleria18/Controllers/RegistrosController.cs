@@ -8,35 +8,22 @@ using System.Web.Mvc;
 using Dominio;
 namespace Muebleria18.Controllers
 {
-    public class AbmDepartmentController: Controller
+    public class RegistrosController : Controller
     {
-        public ActionResult InsertDepartment()
+        // GET: Registros
+        public ActionResult addDepartment()
         {
 
-            Muebleria18.Models.AbmDepartmentModels pModel = new Models.AbmDepartmentModels();
+            Muebleria18.Models.DepartmentModels pModel = new Models.DepartmentModels();
             pModel.mensaje = "Bienvenido a mi ABM";
-            List<DepartmentCOMMON> Departments = new List<DepartmentCOMMON>();
-            //ListDepartment = (List<DepartmentCOMMON>)Session["LaLista"];
-            DepartmentCOMMON unDpto = new DepartmentCOMMON();
-
-            unDpto.Id = 1;
-            unDpto.ListCities = new List<CityCOMMON>();
-            unDpto.Name = "Colonia";
-            Departments.Add(unDpto);
-            unDpto = new DepartmentCOMMON();
-            unDpto.Id = 2;
-            unDpto.ListCities = new List<CityCOMMON>();
-            unDpto.Name = "Montevideo";
-            Departments.Add(unDpto);
-
-            pModel.lstDepartmentModel = Departments;
+            pModel.lstDepartmentModel = Dominio.Fachada.Department_SearchAll();
 
             return View(pModel);
         }
 
         [HttpPost]
         [AllowAnonymous]
-        public ActionResult InsertDepartment(AbmDepartmentModels pModel)
+        public ActionResult addDepartment(DepartmentModels pModel)
         {
             DepartmentCOMMON unDpto = new DepartmentCOMMON();
             unDpto.Name = pModel.Name;
@@ -55,6 +42,18 @@ namespace Muebleria18.Controllers
 
             pModel.mensaje = "Ingreso Correcto";
             #endregion
+            return View(pModel);
+        }
+
+        public ActionResult AltaUsuario()
+        {
+
+            Muebleria18.Models.PersonaModels pModel = new Models.PersonaModels();
+            pModel.mensaje = "Bienvenido a mi ABM";
+            List<PeopleCOMMON> ListadePersonas = new List<PeopleCOMMON>();
+            ListadePersonas = (List<PeopleCOMMON>)Session["LaLista"];
+            pModel.LaListadePersonas = ListadePersonas;
+
             return View(pModel);
         }
     }

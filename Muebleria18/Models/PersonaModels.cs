@@ -9,7 +9,7 @@ using System.Web.Security;
 
 namespace Muebleria18.Models
 {
-    public class AbmPersonasModels
+    public class PersonaModels
     {
         [Required]
         [DataType(DataType.Currency)]

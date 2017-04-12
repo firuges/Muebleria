@@ -12,7 +12,7 @@ using System.Web.Security;
 
 namespace Muebleria18.Models
 {
-    public class AbmDepartmentModels
+    public class DepartmentModels
     {
         [Required]
         [DataType(DataType.Currency)]
@@ -22,6 +22,7 @@ namespace Muebleria18.Models
         [Required]
         [DataType(DataType.Currency)]
         [Display(Name = "Departamentos")]
+
         public List<DepartmentCOMMON> lstDepartmentModel { get; set; }
 
         [DataType(DataType.Currency)]
